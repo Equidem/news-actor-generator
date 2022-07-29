@@ -1,0 +1,64 @@
+{
+  "actorSpecification": 1,
+  "name": "smart-article-extractor",
+  "title": "Smart Article Extractor",
+  "description": "Scrapes articles from selected news site.",
+  "version": "0.0.1",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Smart Article Extractor",
+      "description": "Too see all scraped properties, export the whole dataset or select All fields instead of Overview",
+      "views": {
+        "overview": {
+          "title": "Overview",
+          "description": "",
+          "transformation": {
+            "fields": [
+              "image",
+              "title",
+              "description",
+              "text",
+              "author",
+              "date",
+              "url"
+            ]
+          },
+          "display": {
+            "component": "table",
+            "columns": [
+              { "label": "",
+                "format": "image",
+                "field": "image"
+              },
+              { "label": "Title",
+                "format": "text",
+                "field": "title"
+              },
+              { "label": "Description",
+                "format": "text",
+                "field": "description"
+              },
+              { "label": "Text",
+                "format": "text",
+                "field": "text"
+              },
+              { "label": "Author",
+                "format": "text",
+                "field": "author[0]"
+              },
+              { "label": "Date",
+                "format": "text",
+                "field": "date"
+              },
+              { "label": "Url",
+                "format": "link",
+                "field": "url"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

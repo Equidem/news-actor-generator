@@ -1,0 +1,933 @@
+[2022-05-17 18:55:51] Warning: You are using an old version of apify-cli. Run "npm install apify-cli@latest -g" to install the latest version.
+[2022-05-17 18:55:51] Warning: The apify_storage directory contains a previous state, the actor will continue where it left off. To start from the initial state, use --purge parameter to clean the apify_storage directory.
+[2022-05-17 18:55:51] Run: npm start
+[2022-05-17 18:55:51] 
+[2022-05-17 18:55:51] > news-actor-creator@0.0.1 start
+[2022-05-17 18:55:51] > node main.js
+[2022-05-17 18:55:51] 
+[2022-05-17 18:55:51] [32mINFO[39m  System info[90m {"apifyVersion":"2.3.0","apifyClientVersion":"2.3.0","osType":"Linux","nodeVersion":"v16.13.2"}[39m
+[2022-05-17 18:55:51] Input:
+[2022-05-17 18:55:51] {}
+[2022-05-17 18:55:51] [
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'lefigaro.fr',
+[2022-05-17 18:55:51]     name: 'Le Figaro',
+[2022-05-17 18:55:51]     developer: 'David',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/CudT8ngrWCrHd1HTW#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_pnbcxfV4hpTHTXquh4KaixfdRKtiy53JdoiJ'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'lemonde.fr',
+[2022-05-17 18:55:51]     name: 'Le Monde',
+[2022-05-17 18:55:51]     developer: 'David',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/ImBRIkDUOXBkCmjE0#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_pnbcxfV4hpTHTXquh4KaixfdRKtiy53JdoiJ'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'thedailybeast.com',
+[2022-05-17 18:55:51]     name: 'The Daily Beast',
+[2022-05-17 18:55:51]     developer: 'David',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/Pf6nDq7a80iQLIh7D#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_pnbcxfV4hpTHTXquh4KaixfdRKtiy53JdoiJ'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'dailymail.co.uk',
+[2022-05-17 18:55:51]     name: 'Daily Mail',
+[2022-05-17 18:55:51]     developer: 'David',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/rdaQewgbolXLieAPv#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_pnbcxfV4hpTHTXquh4KaixfdRKtiy53JdoiJ'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'foxnews.com',
+[2022-05-17 18:55:51]     name: 'Fox News',
+[2022-05-17 18:55:51]     developer: 'Hana T.',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/6Lvy8yxGNKn1OlXv9#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_byaSCBUdJ5blvCZ4mtfS5x2irtNbGX24iL5G'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'thehill.com',
+[2022-05-17 18:55:51]     name: 'The Hill',
+[2022-05-17 18:55:51]     developer: 'Hana T.',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/9khL3sjDGPaa4ievT#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_byaSCBUdJ5blvCZ4mtfS5x2irtNbGX24iL5G'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'usnews.com',
+[2022-05-17 18:55:51]     name: 'US News',
+[2022-05-17 18:55:51]     developer: 'Hana T.',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/Myq2YjX989vRAlasP#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_byaSCBUdJ5blvCZ4mtfS5x2irtNbGX24iL5G'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'atlantablackstar.com',
+[2022-05-17 18:55:51]     name: 'Atlanta Black Star',
+[2022-05-17 18:55:51]     developer: 'Hana T.',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/UdAKUedl7RKoiyJCA#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_byaSCBUdJ5blvCZ4mtfS5x2irtNbGX24iL5G'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'theatlantic.com',
+[2022-05-17 18:55:51]     name: 'The Atlantic ',
+[2022-05-17 18:55:51]     developer: 'Hana T.',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/tWumm5o6DZwwq46XL#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_byaSCBUdJ5blvCZ4mtfS5x2irtNbGX24iL5G'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'the-sun.com',
+[2022-05-17 18:55:51]     name: 'The Sun',
+[2022-05-17 18:55:51]     developer: 'Hana T.',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/XXyQA85FtgoXf7teN#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_byaSCBUdJ5blvCZ4mtfS5x2irtNbGX24iL5G'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'cnn.com',
+[2022-05-17 18:55:51]     name: 'CNN',
+[2022-05-17 18:55:51]     developer: 'Kacka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/1o0RJypi4yALzcS0L',
+[2022-05-17 18:55:51]     access_token: 'JXPNHF4gC5p3L9MNLTRn6ufno'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'buzzfeed.com',
+[2022-05-17 18:55:51]     name: 'Buzz Feed',
+[2022-05-17 18:55:51]     developer: 'Lucie',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/9CVVoOox5pD1dyJ7a',
+[2022-05-17 18:55:51]     access_token: 'apify_api_5Z00kL55FFu1jW1rEAAkUJh0L2mREC2YBPOy'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'wsj.com',
+[2022-05-17 18:55:51]     name: 'WSJ',
+[2022-05-17 18:55:51]     developer: 'Lucie',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/fcXOIMqZrG13AxD5j',
+[2022-05-17 18:55:51]     access_token: 'apify_api_5Z00kL55FFu1jW1rEAAkUJh0L2mREC2YBPOy'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'cbslocal.com',
+[2022-05-17 18:55:51]     name: 'CBS Local',
+[2022-05-17 18:55:51]     developer: 'Lukas',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/pQr83DcfzhRB1nnP5#/console',
+[2022-05-17 18:55:51]     access_token: 'd3faQTHx3MhuCPocmFxXsBhwW'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'drudgereport.com',
+[2022-05-17 18:55:51]     name: 'Drudge Report',
+[2022-05-17 18:55:51]     developer: 'Lukas',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/7ST3qoWZvM5HgQgFh',
+[2022-05-17 18:55:51]     access_token: 'd3faQTHx3MhuCPocmFxXsBhwW'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'breitbart.com',
+[2022-05-17 18:55:51]     name: 'Breitbart',
+[2022-05-17 18:55:51]     developer: 'Lukas',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/82ANWQJjxy0L9or10',
+[2022-05-17 18:55:51]     access_token: 'd3faQTHx3MhuCPocmFxXsBhwW'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'abc.net.au',
+[2022-05-17 18:55:51]     name: 'ABC',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/4bUSfUWwvb2DIpgu8#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'nypost.com',
+[2022-05-17 18:55:51]     name: 'New York Post',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/H5xgen0HYq4tJQG81#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'bild.de',
+[2022-05-17 18:55:51]     name: 'Bild',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/KA0ASwy7BV53qcJPf#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'theverge.com',
+[2022-05-17 18:55:51]     name: 'The Verge',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/okTFHHYdYKAh2CKFE#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'cheatsheet.com',
+[2022-05-17 18:55:51]     name: 'Cheat Sheet',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/qG0qd2Lfve1KMEObm#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'news.com.au',
+[2022-05-17 18:55:51]     name: 'News AU',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/RAkkfNu8yVvMfsB9M#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'cnbc.com',
+[2022-05-17 18:55:51]     name: 'CNBC',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/wHbS3gEMx2ogi5Vc5#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'cbc.ca',
+[2022-05-17 18:55:51]     name: 'CBC',
+[2022-05-17 18:55:51]     developer: 'maria',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/YJbcwhw5ltajV1DSK#/console',
+[2022-05-17 18:55:51]     access_token: 'apify_api_juvgHkSY24IGshkSAn6wcU0h2OACiR0tuUa9'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'usmagazine.com',
+[2022-05-17 18:55:51]     name: 'US Magazine',
+[2022-05-17 18:55:51]     developer: 'marketaT',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/bHjfSGhhwJJBmwKFz#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_dgq4DJtXz24E33uencnmri76YgCgec1sSlXl'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'politico.com',
+[2022-05-17 18:55:51]     name: 'Politico',
+[2022-05-17 18:55:51]     developer: 'marketaT',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/i61ZaAfWtDU7SUBMB#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_dgq4DJtXz24E33uencnmri76YgCgec1sSlXl'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'newsweek.com',
+[2022-05-17 18:55:51]     name: 'Newsweek',
+[2022-05-17 18:55:51]     developer: 'marketaT',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/LXv0xHn5NlnWXtnLo#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_dgq4DJtXz24E33uencnmri76YgCgec1sSlXl'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'sfgate.com',
+[2022-05-17 18:55:51]     name: 'SFGate',
+[2022-05-17 18:55:51]     developer: 'marketaT',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/mmQp9GbUI5zGsSdZw#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_dgq4DJtXz24E33uencnmri76YgCgec1sSlXl'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'patch.com',
+[2022-05-17 18:55:51]     name: 'Patch',
+[2022-05-17 18:55:51]     developer: 'marketaT',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/nr8u7AXljzLFdlMCh#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_dgq4DJtXz24E33uencnmri76YgCgec1sSlXl'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'newsmax.com',
+[2022-05-17 18:55:51]     name: 'Newsmax',
+[2022-05-17 18:55:51]     developer: 'Tomáš',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/o08Otv6RnGfFqXCXU',
+[2022-05-17 18:55:51]     access_token: 'apify_api_0SXJjhoKkKyPw16ej7Z33u0NRaXmaA3egFRi'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'theepochtimes.com',
+[2022-05-17 18:55:51]     name: 'Epoch Times',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/6lWedua9Ocq17HmD0',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'people.com',
+[2022-05-17 18:55:51]     name: 'People',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/aW0CUAEJOecUrMUSd',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'cbsnews.com',
+[2022-05-17 18:55:51]     name: 'CBS News',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/elzrsARFMzz275L7g',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'nbcnews.com',
+[2022-05-17 18:55:51]     name: 'NBC news',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/F7Vv6buHPo4BGl8vO',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'usatoday.com',
+[2022-05-17 18:55:51]     name: 'USA Today',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/knlSkTp9wpdFb6jpB',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'forbes.com',
+[2022-05-17 18:55:51]     name: 'Forbes',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/Siqzg7PAOCaDQ4eKz',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'ksl.com',
+[2022-05-17 18:55:51]     name: 'KSL',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/tGPtdQO4v3E1WzW9n',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'news.yahoo.com',
+[2022-05-17 18:55:51]     name: 'Yahoo News',
+[2022-05-17 18:55:51]     developer: 'Natasha',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/vLBGLh60qLe8gnMTU',
+[2022-05-17 18:55:51]     access_token: 'DjzgRT4fgZJT43mBkjM3CBaJB'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'finance.yahoo.com',
+[2022-05-17 18:55:51]     name: 'Yahoo Finance',
+[2022-05-17 18:55:51]     developer: 'Paulo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/grlQGWgjXyYuYR7iH',
+[2022-05-17 18:55:51]     access_token: '6yptjbCeSabM9mQykvCJQDYaF'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'msn.com',
+[2022-05-17 18:55:51]     name: 'MSN',
+[2022-05-17 18:55:51]     developer: 'Paulo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/JYmdZfgCeSa2dil81',
+[2022-05-17 18:55:51]     access_token: '6yptjbCeSabM9mQykvCJQDYaF'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'thegatewaypundit.com',
+[2022-05-17 18:55:51]     name: 'Gateway Pundit',
+[2022-05-17 18:55:51]     developer: 'Perci',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/AVqJJvSpLi5s4AnrU',
+[2022-05-17 18:55:51]     access_token: 'apify_api_FnPQK1QW0kuGgQrCG8vuxRdmCXsL8q4E05ca'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'dailywire.com',
+[2022-05-17 18:55:51]     name: 'Daily Wire',
+[2022-05-17 18:55:51]     developer: 'Perci',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/dDHtfbrwbEguuioqf',
+[2022-05-17 18:55:51]     access_token: 'apify_api_FnPQK1QW0kuGgQrCG8vuxRdmCXsL8q4E05ca'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'theguardian.com',
+[2022-05-17 18:55:51]     name: 'The Guardian',
+[2022-05-17 18:55:51]     developer: 'Theo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/bHaGjD1fat5q1nucj#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_bqlSxLMEcxeSWtzbwtARvBryWO2a9W3zVLZG'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'nytimes.com',
+[2022-05-17 18:55:51]     name: 'New York Times',
+[2022-05-17 18:55:51]     developer: 'Theo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/fZ4dLBpjHO6GKdMHJ',
+[2022-05-17 18:55:51]     access_token: 'apify_api_bqlSxLMEcxeSWtzbwtARvBryWO2a9W3zVLZG'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'bbc.com',
+[2022-05-17 18:55:51]     name: 'BBC',
+[2022-05-17 18:55:51]     developer: 'Theo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/luAD6MDVg6OqRzB5O',
+[2022-05-17 18:55:51]     access_token: 'apify_api_bqlSxLMEcxeSWtzbwtARvBryWO2a9W3zVLZG'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'abcnews.go.com',
+[2022-05-17 18:55:51]     name: 'ABC News',
+[2022-05-17 18:55:51]     developer: 'Theo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/O4IEehUipwhidU9SX#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_bqlSxLMEcxeSWtzbwtARvBryWO2a9W3zVLZG'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'apnews.com',
+[2022-05-17 18:55:51]     name: 'AP News',
+[2022-05-17 18:55:51]     developer: 'Theo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/Pj4EpFCsDrwBTkPYv#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_bqlSxLMEcxeSWtzbwtARvBryWO2a9W3zVLZG'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'washingtonpost.com',
+[2022-05-17 18:55:51]     name: 'Washington Post',
+[2022-05-17 18:55:51]     developer: 'Theo',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/RMEJ1njcF61ik8wNe#/settings',
+[2022-05-17 18:55:51]     access_token: 'apify_api_bqlSxLMEcxeSWtzbwtARvBryWO2a9W3zVLZG'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'latimes.com',
+[2022-05-17 18:55:51]     name: 'Los Angeles Times',
+[2022-05-17 18:55:51]     developer: 'Thomas Hoojer',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/z04Qjg9CPHGDDrupb',
+[2022-05-17 18:55:51]     access_token: 'apify_api_0SXJjhoKkKyPw16ej7Z33u0NRaXmaA3egFRi'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'reuters.com',
+[2022-05-17 18:55:51]     name: 'Reuters',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/BabsaZ2ltbdcA2uhh',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'huffpost.com',
+[2022-05-17 18:55:51]     name: 'Huffington Post',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/8VpRA8a6gVtSfKrXO',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'blesk.cz',
+[2022-05-17 18:55:51]     name: 'Blesk',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/9rzEGV64XjM5MZuGk',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'indiatimes.com',
+[2022-05-17 18:55:51]     name: 'India Times',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/hHe1tu8Rb5CJjnQaR#/settings',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'onet.pl',
+[2022-05-17 18:55:51]     name: 'Onet',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/i23NMIBk54s0fClKu#/settings',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'ctvnews.ca',
+[2022-05-17 18:55:51]     name: 'CTV News',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/VazFFCcad7hJx50qW',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 'francetvinfo.fr',
+[2022-05-17 18:55:51]     name: 'Franceinfo',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/Z1hqYQE5g145z6XnX',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   },
+[2022-05-17 18:55:51]   {
+[2022-05-17 18:55:51]     url: 't-online.de',
+[2022-05-17 18:55:51]     name: 'T-online',
+[2022-05-17 18:55:51]     developer: 'Zuzka',
+[2022-05-17 18:55:51]     task_url: 'https://console.apify.com/actors/tasks/ZwutC16X5m23JWMtY',
+[2022-05-17 18:55:51]     access_token: 'cf5nKonBXs7oWKjf4HiuPzPf8'
+[2022-05-17 18:55:51]   }
+[2022-05-17 18:55:51] ]
+[2022-05-17 18:55:54] Building actor
+[2022-05-17 18:56:02] Running actor
+[2022-05-17 18:59:09] 98
+[2022-05-17 18:59:09] Run finished
+[2022-05-17 18:59:09] Fully generated actor URL: https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/7Op5iRBmNqI7kywlp
+[2022-05-17 18:59:11] Building actor
+[2022-05-17 18:59:23] Running actor
+[2022-05-17 19:01:06] 98
+[2022-05-17 19:01:06] Run finished
+[2022-05-17 19:01:06] Fully generated actor URL: https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/SQOIr61d0uz4UTWdQ
+[2022-05-17 19:01:09] Building actor
+[2022-05-17 19:01:17] Running actor
+[2022-05-17 19:02:13] 7
+[2022-05-17 19:02:13] Run finished
+[2022-05-17 19:02:13] Fully generated actor URL: https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/3zoypPR4gjTV4WX7g
+[2022-05-17 19:02:16] Building actor
+[2022-05-17 19:02:37] Running actor
+[2022-05-17 19:05:23] 97
+[2022-05-17 19:05:23] Run finished
+[2022-05-17 19:05:23] Fully generated actor URL: https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/TKcBJTnovIeAj660b
+[2022-05-17 19:05:26] Building actor
+[2022-05-17 19:05:33] Running actor
+[2022-05-17 19:05:40] 0
+[2022-05-17 19:05:40] Run finished
+[2022-05-17 19:05:40] Fully generated actor URL: https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/ysw2FSyL9ClvKBoZT
+[2022-05-17 19:05:43] Building actor
+[2022-05-17 19:05:51] Running actor
+[2022-05-17 19:05:59] 0
+[2022-05-17 19:05:59] Run finished
+[2022-05-17 19:05:59] Fully generated actor URL: https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/2lvSxe9IVd0NiOc9n
+[2022-05-17 19:06:01] Building actor
+[2022-05-17 19:06:08] Running actor
+[2022-05-17 19:06:16] 0
+[2022-05-17 19:06:16] Run finished
+[2022-05-17 19:06:16] Fully generated actor URL: https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/2iyzPFb6kGcmp30AI
+[2022-05-17 19:06:19] Building actor
+[2022-05-17 19:06:28] Running actor
+[2022-05-17 19:08:37] 0
+[2022-05-17 19:08:37] Run finished
+[2022-05-17 19:08:37] Fully generated actor URL: https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/NRyRBheDuYl9W1PpD
+[2022-05-17 19:08:39] Building actor
+[2022-05-17 19:08:46] Running actor
+[2022-05-17 19:08:55] 0
+[2022-05-17 19:08:55] Run finished
+[2022-05-17 19:08:55] Fully generated actor URL: https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/c2shhPdkcIacuXj4s
+[2022-05-17 19:08:57] Building actor
+[2022-05-17 19:09:04] Running actor
+[2022-05-17 19:09:11] 0
+[2022-05-17 19:09:11] Run finished
+[2022-05-17 19:09:11] Fully generated actor URL: https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/ZZYGpAFyeTYph5zVy
+[2022-05-17 19:09:13] Building actor
+[2022-05-17 19:09:26] Running actor
+[2022-05-17 19:10:57] 1
+[2022-05-17 19:10:57] Run finished
+[2022-05-17 19:10:57] Fully generated actor URL: https://console.apify.com/admin/users/sxrfHNjkrmdMPxYuf/actors/YUemDaJ9HhGaVB3gs
+[2022-05-17 19:11:00] Building actor
+[2022-05-17 19:11:07] Running actor
+[2022-05-17 19:12:39] 6
+[2022-05-17 19:12:39] Run finished
+[2022-05-17 19:12:39] Fully generated actor URL: https://console.apify.com/admin/users/c7bPy5K5P7WccGaBH/actors/2hueQowXCHe7PGMlt
+[2022-05-17 19:12:42] Building actor
+[2022-05-17 19:12:50] Running actor
+[2022-05-17 19:15:54] 24
+[2022-05-17 19:15:54] Run finished
+[2022-05-17 19:15:54] Fully generated actor URL: https://console.apify.com/admin/users/c7bPy5K5P7WccGaBH/actors/OCX2jBhxn8EqN0cA5
+[2022-05-17 19:15:57] Building actor
+[2022-05-17 19:16:04] Running actor
+[2022-05-17 19:16:20] 0
+[2022-05-17 19:16:20] Run finished
+[2022-05-17 19:16:20] Fully generated actor URL: https://console.apify.com/admin/users/eFWXxAQdvDBnhmbay/actors/r8OrDwrBVZdW8WcgX
+[2022-05-17 19:16:22] Building actor
+[2022-05-17 19:16:29] Running actor
+[2022-05-17 19:16:42] 0
+[2022-05-17 19:16:42] Run finished
+[2022-05-17 19:16:42] Fully generated actor URL: https://console.apify.com/admin/users/eFWXxAQdvDBnhmbay/actors/0iF2fCHLqDXm0w3cl
+[2022-05-17 19:16:45] Building actor
+[2022-05-17 19:16:53] Running actor
+[2022-05-17 19:17:52] 69
+[2022-05-17 19:17:52] Run finished
+[2022-05-17 19:17:52] Fully generated actor URL: https://console.apify.com/admin/users/eFWXxAQdvDBnhmbay/actors/STjWBTKHxDRVmUPPf
+[2022-05-17 19:17:55] Building actor
+[2022-05-17 19:18:03] Running actor
+[2022-05-17 19:18:56] 16
+[2022-05-17 19:18:56] Run finished
+[2022-05-17 19:18:56] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/dQPPprQjF1QcSnRQW
+[2022-05-17 19:18:59] Building actor
+[2022-05-17 19:19:06] Running actor
+[2022-05-17 19:20:14] 97
+[2022-05-17 19:20:14] Run finished
+[2022-05-17 19:20:14] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/0PVCCw4m3fwImHg9c
+[2022-05-17 19:20:17] Building actor
+[2022-05-17 19:20:25] Running actor
+[2022-05-17 19:23:30] 74
+[2022-05-17 19:23:30] Run finished
+[2022-05-17 19:23:30] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/0Mfv7X7lFTsIO9Bdt
+[2022-05-17 19:23:33] Building actor
+[2022-05-17 19:23:43] Running actor
+[2022-05-17 19:24:55] 68
+[2022-05-17 19:24:55] Run finished
+[2022-05-17 19:24:55] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/oFQ0geqcmDHjZlhbd
+[2022-05-17 19:24:59] Building actor
+[2022-05-17 19:25:08] Running actor
+[2022-05-17 19:26:04] 25
+[2022-05-17 19:26:04] Run finished
+[2022-05-17 19:26:04] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/ctFzcH3IaI14Y6Sn3
+[2022-05-17 19:26:07] Building actor
+[2022-05-17 19:26:16] Running actor
+[2022-05-17 19:29:21] 78
+[2022-05-17 19:29:21] Run finished
+[2022-05-17 19:29:21] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/3HmgTI9d1y0oU9cue
+[2022-05-17 19:29:25] Building actor
+[2022-05-17 19:29:32] Running actor
+[2022-05-17 19:30:47] 72
+[2022-05-17 19:30:47] Run finished
+[2022-05-17 19:30:47] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/Z7CFOUx1GWDlcF7nO
+[2022-05-17 19:30:50] Building actor
+[2022-05-17 19:30:57] Running actor
+[2022-05-17 19:31:33] 24
+[2022-05-17 19:31:33] Run finished
+[2022-05-17 19:31:33] Fully generated actor URL: https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/5OVoiDMQvyGV6kXGG
+[2022-05-17 19:31:36] Building actor
+[2022-05-17 19:31:44] Running actor
+[2022-05-17 19:33:17] 54
+[2022-05-17 19:33:17] Run finished
+[2022-05-17 19:33:17] Fully generated actor URL: https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/yVEbqIkzGqkArQj0N
+[2022-05-17 19:33:21] Building actor
+[2022-05-17 19:33:28] Running actor
+[2022-05-17 19:34:49] 88
+[2022-05-17 19:34:49] Run finished
+[2022-05-17 19:34:49] Fully generated actor URL: https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/M0ByNh0YRhdJZwpsW
+[2022-05-17 19:34:52] Building actor
+[2022-05-17 19:35:03] Running actor
+[2022-05-17 19:36:09] 97
+[2022-05-17 19:36:09] Run finished
+[2022-05-17 19:36:09] Fully generated actor URL: https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/wSaEGviVN6MjdYiIa
+[2022-05-17 19:36:12] Building actor
+[2022-05-17 19:36:20] Running actor
+[2022-05-17 19:38:50] 96
+[2022-05-17 19:38:50] Run finished
+[2022-05-17 19:38:50] Fully generated actor URL: https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/z8oaE4M5QYBGOVIIk
+[2022-05-17 19:38:53] Building actor
+[2022-05-17 19:39:06] Running actor
+[2022-05-17 19:40:16] 24
+[2022-05-17 19:40:16] Run finished
+[2022-05-17 19:40:16] Fully generated actor URL: https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/WGIfrBedmGdJYyZi1
+[2022-05-17 19:40:18] Building actor
+[2022-05-17 19:40:24] Running actor
+[2022-05-17 19:42:29] 86
+[2022-05-17 19:42:29] Run finished
+[2022-05-17 19:42:29] Fully generated actor URL: https://console.apify.com/admin/users/5J7GzXrxbksFSBWo2/actors/TZXIKUHI56z6SzIml
+[2022-05-17 19:42:32] Building actor
+[2022-05-17 19:42:41] Running actor
+[2022-05-17 19:44:15] 88
+[2022-05-17 19:44:15] Run finished
+[2022-05-17 19:44:15] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/n0Ac6Vvv13XCDcmRy
+[2022-05-17 19:44:17] Building actor
+[2022-05-17 19:44:31] Running actor
+[2022-05-17 19:46:01] 0
+[2022-05-17 19:46:01] Run finished
+[2022-05-17 19:46:01] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/81pAhG4i6LJqDeC9Z
+[2022-05-17 19:46:04] Building actor
+[2022-05-17 19:46:14] Running actor
+[2022-05-17 19:49:30] 69
+[2022-05-17 19:49:30] Run finished
+[2022-05-17 19:49:30] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/kEWXA2f16nCYoblDF
+[2022-05-17 19:49:33] Building actor
+[2022-05-17 19:49:49] Running actor
+[2022-05-17 19:51:15] 76
+[2022-05-17 19:51:15] Run finished
+[2022-05-17 19:51:15] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/rTVD8Ywczkr9ZH7O3
+[2022-05-17 19:51:18] Building actor
+[2022-05-17 19:51:31] Running actor
+[2022-05-17 19:52:16] 2
+[2022-05-17 19:52:16] Run finished
+[2022-05-17 19:52:16] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/xgoUxxK4fhGJ0Macb
+[2022-05-17 19:52:19] Building actor
+[2022-05-17 19:52:27] Running actor
+[2022-05-17 19:55:03] 66
+[2022-05-17 19:55:03] Run finished
+[2022-05-17 19:55:03] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/fimwX7sc8331uxoEm
+[2022-05-17 19:55:06] Building actor
+[2022-05-17 19:55:14] Running actor
+[2022-05-17 19:58:24] 0
+[2022-05-17 19:58:24] Run finished
+[2022-05-17 19:58:24] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/hIDMNe7ZzMSgghT1H
+[2022-05-17 19:58:27] Building actor
+[2022-05-17 19:58:39] Running actor
+[2022-05-17 20:00:25] 9
+[2022-05-17 20:00:25] Run finished
+[2022-05-17 20:00:25] Fully generated actor URL: https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/635U7VFI005vjvPoB
+[2022-05-17 20:00:28] Building actor
+[2022-05-17 20:00:45] Running actor
+[2022-05-17 20:00:49] 0
+[2022-05-17 20:00:49] Run finished
+[2022-05-17 20:00:49] Fully generated actor URL: https://console.apify.com/admin/users/aurPRTH47KhmiaPNJ/actors/q9SAwxcMO7EDtbasY
+[2022-05-17 20:00:52] Building actor
+[2022-05-17 20:01:03] Running actor
+[2022-05-17 20:01:08] 0
+[2022-05-17 20:01:08] Run finished
+[2022-05-17 20:01:08] Fully generated actor URL: https://console.apify.com/admin/users/aurPRTH47KhmiaPNJ/actors/bk6Gqw7ocNYtCr6VO
+[2022-05-17 20:01:15] Building actor
+[2022-05-17 20:01:27] Running actor
+[2022-05-17 20:02:09] 23
+[2022-05-17 20:02:09] Run finished
+[2022-05-17 20:02:09] Fully generated actor URL: https://console.apify.com/admin/users/MvYffCtnfodbbg9cf/actors/hYGxnC5hsIVtuidGr
+[2022-05-17 20:02:12] Building actor
+[2022-05-17 20:02:20] Running actor
+[2022-05-17 20:03:09] 7
+[2022-05-17 20:03:09] Run finished
+[2022-05-17 20:03:09] Fully generated actor URL: https://console.apify.com/admin/users/MvYffCtnfodbbg9cf/actors/fD0hqWLIVQIzuymfT
+[2022-05-17 20:03:12] Building actor
+[2022-05-17 20:03:24] Running actor
+[2022-05-17 20:04:57] 96
+[2022-05-17 20:04:57] Run finished
+[2022-05-17 20:04:57] Fully generated actor URL: https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/vz66DwP0NI6935UtH
+[2022-05-17 20:05:00] Building actor
+[2022-05-17 20:05:07] Running actor
+[2022-05-17 20:06:20] 59
+[2022-05-17 20:06:20] Run finished
+[2022-05-17 20:06:20] Fully generated actor URL: https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/gDoztYHpeZ83gydR8
+[2022-05-17 20:06:23] Building actor
+[2022-05-17 20:06:33] Running actor
+[2022-05-17 20:08:27] 4
+[2022-05-17 20:08:27] Run finished
+[2022-05-17 20:08:27] Fully generated actor URL: https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/LegVdJk4JRJf7ae1z
+[2022-05-17 20:08:31] Building actor
+[2022-05-17 20:08:40] Running actor
+[2022-05-17 20:09:46] 0
+[2022-05-17 20:09:46] Run finished
+[2022-05-17 20:09:46] Fully generated actor URL: https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/VK56zuKTugTQ9pGjM
+[2022-05-17 20:09:48] Building actor
+[2022-05-17 20:09:56] Running actor
+[2022-05-17 20:12:21] 100
+[2022-05-17 20:12:21] Run finished
+[2022-05-17 20:12:21] Fully generated actor URL: https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/G7r4hHP9XTS3Qklcf
+[2022-05-17 20:12:23] Building actor
+[2022-05-17 20:12:31] Running actor
+[2022-05-17 20:15:07] 98
+[2022-05-17 20:15:07] Run finished
+[2022-05-17 20:15:07] Fully generated actor URL: https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/oqshg7rB34wVFjb9V
+[2022-05-17 20:15:09] Building actor
+[2022-05-17 20:15:21] Running actor
+[2022-05-17 20:17:11] 98
+[2022-05-17 20:17:11] Run finished
+[2022-05-17 20:17:11] Fully generated actor URL: https://console.apify.com/admin/users/5J7GzXrxbksFSBWo2/actors/xJGFc4ldNTnhjg02z
+[2022-05-17 20:17:14] Building actor
+[2022-05-17 20:17:21] Running actor
+[2022-05-17 20:18:13] 58
+[2022-05-17 20:18:13] Run finished
+[2022-05-17 20:18:13] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/eW8ebjgolp5I6xU8k
+[2022-05-17 20:18:15] Building actor
+[2022-05-17 20:18:23] Running actor
+[2022-05-17 20:22:08] 56
+[2022-05-17 20:22:08] Run finished
+[2022-05-17 20:22:08] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/pxuEeyOwcoZyK6VBo
+[2022-05-17 20:22:11] Building actor
+[2022-05-17 20:22:19] Running actor
+[2022-05-17 20:37:13] 1
+[2022-05-17 20:37:13] Run finished
+[2022-05-17 20:37:13] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/OYMwWUpGffB1tYvhI
+[2022-05-17 20:37:16] Building actor
+[2022-05-17 20:37:25] Running actor
+[2022-05-17 20:38:34] 11
+[2022-05-17 20:38:34] Run finished
+[2022-05-17 20:38:34] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/jQw4YXRBoVOao79OK
+[2022-05-17 20:38:37] Building actor
+[2022-05-17 20:38:45] Running actor
+[2022-05-17 20:40:07] 0
+[2022-05-17 20:40:07] Run finished
+[2022-05-17 20:40:07] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/wh0HAiVb003GTl9wd
+[2022-05-17 20:40:09] Building actor
+[2022-05-17 20:40:18] Running actor
+[2022-05-17 20:42:03] 54
+[2022-05-17 20:42:03] Run finished
+[2022-05-17 20:42:03] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/wOewILndULnCmG7Ib
+[2022-05-17 20:42:05] Building actor
+[2022-05-17 20:42:12] Running actor
+[2022-05-17 20:44:32] 90
+[2022-05-17 20:44:32] Run finished
+[2022-05-17 20:44:32] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/lAGbjU15SOU63ecBv
+[2022-05-17 20:44:35] Building actor
+[2022-05-17 20:44:43] Running actor
+[2022-05-17 20:52:29] 2
+[2022-05-17 20:52:29] Run finished
+[2022-05-17 20:52:29] Fully generated actor URL: https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/cZppKfvStpxcCQE8g
+[2022-05-17 20:52:29] 
+[2022-05-17 20:52:29] 
+[2022-05-17 20:52:29] 
+[2022-05-17 20:52:29] Generated 1 full results actors:
+[2022-05-17 20:52:29] [
+[2022-05-17 20:52:29]   'https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/G7r4hHP9XTS3Qklcf'
+[2022-05-17 20:52:29] ]
+[2022-05-17 20:52:29] 
+[2022-05-17 20:52:29] 
+[2022-05-17 20:52:29] 
+[2022-05-17 20:52:29] Generated 56 non-full results actors:
+[2022-05-17 20:52:29] [
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/7Op5iRBmNqI7kywlp',
+[2022-05-17 20:52:29]     results: 98
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/SQOIr61d0uz4UTWdQ',
+[2022-05-17 20:52:29]     results: 98
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/3zoypPR4gjTV4WX7g',
+[2022-05-17 20:52:29]     results: 7
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/jNscrgYhBEuDAGN27/actors/TKcBJTnovIeAj660b',
+[2022-05-17 20:52:29]     results: 97
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/ysw2FSyL9ClvKBoZT',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/2lvSxe9IVd0NiOc9n',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/2iyzPFb6kGcmp30AI',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/NRyRBheDuYl9W1PpD',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/c2shhPdkcIacuXj4s',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MpivRRYNhyQkYmRD4/actors/ZZYGpAFyeTYph5zVy',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/sxrfHNjkrmdMPxYuf/actors/YUemDaJ9HhGaVB3gs',
+[2022-05-17 20:52:29]     results: 1
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/c7bPy5K5P7WccGaBH/actors/2hueQowXCHe7PGMlt',
+[2022-05-17 20:52:29]     results: 6
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/c7bPy5K5P7WccGaBH/actors/OCX2jBhxn8EqN0cA5',
+[2022-05-17 20:52:29]     results: 24
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/eFWXxAQdvDBnhmbay/actors/r8OrDwrBVZdW8WcgX',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/eFWXxAQdvDBnhmbay/actors/0iF2fCHLqDXm0w3cl',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/eFWXxAQdvDBnhmbay/actors/STjWBTKHxDRVmUPPf',
+[2022-05-17 20:52:29]     results: 69
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/dQPPprQjF1QcSnRQW',
+[2022-05-17 20:52:29]     results: 16
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/0PVCCw4m3fwImHg9c',
+[2022-05-17 20:52:29]     results: 97
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/0Mfv7X7lFTsIO9Bdt',
+[2022-05-17 20:52:29]     results: 74
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/oFQ0geqcmDHjZlhbd',
+[2022-05-17 20:52:29]     results: 68
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/ctFzcH3IaI14Y6Sn3',
+[2022-05-17 20:52:29]     results: 25
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/3HmgTI9d1y0oU9cue',
+[2022-05-17 20:52:29]     results: 78
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/Z7CFOUx1GWDlcF7nO',
+[2022-05-17 20:52:29]     results: 72
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Wgm5Qgbba9XAXfzLy/actors/5OVoiDMQvyGV6kXGG',
+[2022-05-17 20:52:29]     results: 24
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/yVEbqIkzGqkArQj0N',
+[2022-05-17 20:52:29]     results: 54
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/M0ByNh0YRhdJZwpsW',
+[2022-05-17 20:52:29]     results: 88
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/wSaEGviVN6MjdYiIa',
+[2022-05-17 20:52:29]     results: 97
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/z8oaE4M5QYBGOVIIk',
+[2022-05-17 20:52:29]     results: 96
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/TQCTLrbS76v7JXGFQ/actors/WGIfrBedmGdJYyZi1',
+[2022-05-17 20:52:29]     results: 24
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/5J7GzXrxbksFSBWo2/actors/TZXIKUHI56z6SzIml',
+[2022-05-17 20:52:29]     results: 86
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/n0Ac6Vvv13XCDcmRy',
+[2022-05-17 20:52:29]     results: 88
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/81pAhG4i6LJqDeC9Z',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/kEWXA2f16nCYoblDF',
+[2022-05-17 20:52:29]     results: 69
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/rTVD8Ywczkr9ZH7O3',
+[2022-05-17 20:52:29]     results: 76
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/xgoUxxK4fhGJ0Macb',
+[2022-05-17 20:52:29]     results: 2
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/fimwX7sc8331uxoEm',
+[2022-05-17 20:52:29]     results: 66
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/hIDMNe7ZzMSgghT1H',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/gwiDgmBmGBNN67aXj/actors/635U7VFI005vjvPoB',
+[2022-05-17 20:52:29]     results: 9
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/aurPRTH47KhmiaPNJ/actors/q9SAwxcMO7EDtbasY',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/aurPRTH47KhmiaPNJ/actors/bk6Gqw7ocNYtCr6VO',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MvYffCtnfodbbg9cf/actors/hYGxnC5hsIVtuidGr',
+[2022-05-17 20:52:29]     results: 23
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/MvYffCtnfodbbg9cf/actors/fD0hqWLIVQIzuymfT',
+[2022-05-17 20:52:29]     results: 7
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/vz66DwP0NI6935UtH',
+[2022-05-17 20:52:29]     results: 96
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/gDoztYHpeZ83gydR8',
+[2022-05-17 20:52:29]     results: 59
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/LegVdJk4JRJf7ae1z',
+[2022-05-17 20:52:29]     results: 4
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/VK56zuKTugTQ9pGjM',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/szMpemHo3YfRBRBXA/actors/oqshg7rB34wVFjb9V',
+[2022-05-17 20:52:29]     results: 98
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/5J7GzXrxbksFSBWo2/actors/xJGFc4ldNTnhjg02z',
+[2022-05-17 20:52:29]     results: 98
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/eW8ebjgolp5I6xU8k',
+[2022-05-17 20:52:29]     results: 58
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/pxuEeyOwcoZyK6VBo',
+[2022-05-17 20:52:29]     results: 56
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/OYMwWUpGffB1tYvhI',
+[2022-05-17 20:52:29]     results: 1
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/jQw4YXRBoVOao79OK',
+[2022-05-17 20:52:29]     results: 11
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/wh0HAiVb003GTl9wd',
+[2022-05-17 20:52:29]     results: 0
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/wOewILndULnCmG7Ib',
+[2022-05-17 20:52:29]     results: 54
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/lAGbjU15SOU63ecBv',
+[2022-05-17 20:52:29]     results: 90
+[2022-05-17 20:52:29]   },
+[2022-05-17 20:52:29]   {
+[2022-05-17 20:52:29]     url: 'https://console.apify.com/admin/users/Zji7Rt6MKGCn6Ae6A/actors/cZppKfvStpxcCQE8g',
+[2022-05-17 20:52:29]     results: 2
+[2022-05-17 20:52:29]   }
+[2022-05-17 20:52:29] ]
